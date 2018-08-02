@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 public class LoginActivity extends AppCompatActivity {
 
-    public static boolean loggedIn = false;
+    public static boolean loggedIn = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

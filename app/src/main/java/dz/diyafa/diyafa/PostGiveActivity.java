@@ -17,14 +17,14 @@ public class PostGiveActivity extends AppCompatActivity {
 
         int postId=(int)getIntent().getExtras().get(EXTRA_POST_ID);
         PostGive p=HomeActivity.arrayOfPostGives.get(postId);
-        TextView foodName=findViewById(R.id.foodName2);
-        TextView coutry=findViewById(R.id.country2);
-        TextView time=findViewById(R.id.time2);
-        TextView quantity=findViewById(R.id.quantity2);
-        TextView position=findViewById(R.id.position2);
-        TextView user=findViewById(R.id.user2);
-        TextView email=findViewById(R.id.email2);
-        TextView phone=findViewById(R.id.phone2);
+        TextView foodName=findViewById(R.id.food_name);
+        TextView coutry=findViewById(R.id.country);
+        TextView time=findViewById(R.id.time);
+        TextView quantity=findViewById(R.id.quantity);
+        TextView position=findViewById(R.id.position);
+        TextView user=findViewById(R.id.user);
+        TextView email=findViewById(R.id.email);
+        TextView phone=findViewById(R.id.phone);
         foodName.setText(p.getFoodName());
         coutry.setText(p.getCountry());
         time.setText(p.getMinutes());
