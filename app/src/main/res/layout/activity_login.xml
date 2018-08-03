@@ -63,6 +63,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/colorAccent"
         android:text="Sign In"
+        android:onClick="onLogIn"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

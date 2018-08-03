@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "149596886478",
+    "firebase_url": "https://diyafa-9a44e.firebaseio.com",
+    "project_id": "diyafa-9a44e",
+    "storage_bucket": "diyafa-9a44e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149596886478:android:2498600a617767a1",
+        "android_client_info": {
+          "package_name": "dz.diyafa.diyafa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149596886478-qgfavvlv919dl4jn6c5rbtsrj98bj82r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dz.diyafa.diyafa",
+            "certificate_hash": "8464bfff4f50dc6609e36039f323fe7adee5bf79"
+          }
+        },
+        {
+          "client_id": "149596886478-rd0s05uvkmjc2kitrvlmi1e06aruk07t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dz.diyafa.diyafa",
+            "certificate_hash": "5471d831dcc6e12aa2795db76348f8babe3e19dd"
+          }
+        },
+        {
+          "client_id": "149596886478-foojnvsp4dp5afomtiak3in5hi7rfccg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH-BDs41Iy-Bxdu9AhxKzRIhuYOwXH6vY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149596886478-foojnvsp4dp5afomtiak3in5hi7rfccg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
