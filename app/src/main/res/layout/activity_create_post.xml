@@ -190,7 +190,7 @@
         app:layout_constraintEnd_toStartOf="@+id/button_plus"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/quantity_c"
-        app:srcCompat="@drawable/up-button-64997" />
+        app:srcCompat="@drawable/up_button_64997" />
 
     <ImageButton
         android:id="@+id/button_plus"
