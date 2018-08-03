@@ -15,6 +15,7 @@ public class PostGiveActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
+
         int postId=(int)getIntent().getExtras().get(EXTRA_POST_ID);
         PostGive p=HomeActivity.arrayOfPostGives.get(postId);
         TextView foodName=findViewById(R.id.food_name);

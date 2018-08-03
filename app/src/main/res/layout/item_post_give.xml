@@ -25,7 +25,7 @@
         android:text="helloweworld"
         android:textSize="21sp"
         android:textStyle="bold"
-        android:textColor="@color/text_color"
+        android:textColor="@color/colorWhiteSmoke"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +35,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        android:textColor="@color/text_color"
+        android:textColor="@color/colorWhiteSmoke"
         app:layout_constraintStart_toStartOf="@+id/food_name_item"
         app:layout_constraintTop_toBottomOf="@+id/food_name_item" />
 
@@ -80,7 +80,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        android:textColor="@color/text_color"
+        android:textColor="@color/colorWhiteSmoke"
         app:layout_constraintStart_toStartOf="@+id/country_item"
         app:layout_constraintTop_toBottomOf="@+id/country_item" />
 
@@ -91,7 +91,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        android:textColor="@color/text_color"
+        android:textColor="@color/colorWhiteSmoke"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,7 +101,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        android:textColor="@color/text_color"
+        android:textColor="@color/colorWhiteSmoke"
         app:layout_constraintEnd_toEndOf="@+id/time_item"
         app:layout_constraintTop_toBottomOf="@+id/time_item" />
 
@@ -111,7 +111,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        android:textColor="@color/text_color"
+        android:textColor="@color/colorWhiteSmoke"
         app:layout_constraintEnd_toEndOf="@+id/quantity_item"
         app:layout_constraintTop_toBottomOf="@+id/quantity_item" />
 
