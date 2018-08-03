@@ -15,14 +15,14 @@ public class CreatePostActivity extends AppCompatActivity {
     int quantity=1;
     String location;
 
-    //
-    final SeekBar sk=(SeekBar) findViewById(R.id.seekBar);
-    TextView timeView=findViewById(R.id.time_c);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_post);
+
+        SeekBar sk = findViewById(R.id.seekBar);
+        final TextView timeView = findViewById(R.id.time_c);
 
         sk.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
