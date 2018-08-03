@@ -3,95 +3,117 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="2dp"
-    android:elevation="2dp">
+    android:layout_height="160dp"
+    android:background="@color/colorPrimaryLight"
+    android:elevation="16dp"
+
+    android:useDefaultMargins="false"
+    android:layout_margin="8dp"
+    android:columnCount="3"
+    android:rowCount="2"
+    tools:layout_editor_absoluteX="2dp"
+    tools:layout_editor_absoluteY="81dp"
+    >
 
 
     <TextView
-        android:id="@+id/food_name"
+        android:id="@+id/food_name_item"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="helloweworld"
-        android:textStyle="bold"
         android:textSize="21sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.101"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/country_item"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@color/text_color"
+        app:layout_constraintStart_toStartOf="@+id/food_name_item"
+        app:layout_constraintTop_toBottomOf="@+id/food_name_item" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/outline_access_time_black_36" />
-
-    <TextView
-        android:id="@+id/time2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <TextView
-        android:id="@+id/country2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/food_name"
-        app:layout_constraintTop_toBottomOf="@+id/food_name" />
-
-    <TextView
-        android:id="@+id/region"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/quantity2"
-        app:layout_constraintStart_toStartOf="@+id/country2"
-        app:layout_constraintTop_toBottomOf="@+id/country2" />
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/baseline_group_white_36" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="43dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/imageView11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintBottom_toTopOf="@+id/quantity2"
-        app:layout_constraintEnd_toStartOf="@+id/time2"
-        app:layout_constraintHorizontal_bias="0.669"
-        app:layout_constraintStart_toEndOf="@+id/country2"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018"
-        app:srcCompat="@drawable/outline_group_black_36" />
+        app:srcCompat="@drawable/baseline_av_timer_white_36" />
 
-    <TextView
-        android:id="@+id/quantity2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="TextView"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toEndOf="@+id/region" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_place_white_36" />
+
+    <TextView
+        android:id="@+id/user_item"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@color/text_color"
+        app:layout_constraintStart_toStartOf="@+id/country_item"
+        app:layout_constraintTop_toBottomOf="@+id/country_item" />
+
+    <TextView
+        android:id="@+id/time_item"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@color/text_color"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quantity_item"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@color/text_color"
+        app:layout_constraintEnd_toEndOf="@+id/time_item"
+        app:layout_constraintTop_toBottomOf="@+id/time_item" />
+
+    <TextView
+        android:id="@+id/position_item"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="@color/text_color"
+        app:layout_constraintEnd_toEndOf="@+id/quantity_item"
+        app:layout_constraintTop_toBottomOf="@+id/quantity_item" />
 
 
 </android.support.constraint.ConstraintLayout>

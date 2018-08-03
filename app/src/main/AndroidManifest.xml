@@ -18,8 +18,17 @@
         </activity>
         <activity
             android:name=".HomeActivity"
+<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+=======
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostGiveActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".CreatePostActivity"></activity>
+>>>>>>> cc34228782851536be2eab44c38e5783e9cf8f15
     </application>
 
 </manifest>
