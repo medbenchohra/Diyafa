@@ -40,7 +40,7 @@ public class CreatePostActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress,boolean fromUser) {
                 // TODO Auto-generated method stub
 
-                timeView.setText(progress+"min");
+                timeView.setText(progress+" min");
 
 
             }

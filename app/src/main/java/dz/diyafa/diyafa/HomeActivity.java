@@ -50,21 +50,21 @@ public class HomeActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        PostGive p=new PostGive("Chorba", "Algeria","Algiers", "15min", "3people");
+        PostGive p=new PostGive("Chorba", "Algeria","Algiers", "15 min", "3 people");
         arrayOfPostGives.add(p);
-        p=new PostGive("Egyptian food", "Egypt","Cairo", "15min", "2people");
+        p=new PostGive("Egyptian food", "Egypt","Cairo", "15 min", "2 people");
         arrayOfPostGives.add(p);
-        p=new PostGive("REPAT", "Morocco","Casablanca", "50min", "3people");
+        p=new PostGive("REPAT", "Morocco","Casablanca", "50 min", "3 people");
         arrayOfPostGives.add(p);
-        p=new PostGive("Chorba", "Algeria","Algiers", "30min", "1person");
+        p=new PostGive("Chorba", "Algeria","Algiers", "30 min", "1 person");
         arrayOfPostGives.add(p);
-        p=new PostGive("Chorba", "Algeria","Algiers", "15min", "3people");
+        p=new PostGive("Chorba", "Algeria","Algiers", "15 min", "3 people");
         arrayOfPostGives.add(p);
-        p=new PostGive("Chorba", "Algeria","Algiers", "15min", "3people");
+        p=new PostGive("Chorba", "Algeria","Algiers", "15 min", "3 people");
         arrayOfPostGives.add(p);
-        p=new PostGive("Chorba", "Algeria","Algiers", "15min", "3people");
+        p=new PostGive("Chorba", "Algeria","Algiers", "15 min", "3 people");
         arrayOfPostGives.add(p);
-        p=new PostGive("Chorba", "Algeria","Algiers", "15min", "3people");
+        p=new PostGive("Chorba", "Algeria","Algiers", "15 min", "3 people");
         arrayOfPostGives.add(p);
         // Create the adapter to convert the array to views
         PostGiveAdapter adapter = new PostGiveAdapter(this, arrayOfPostGives);

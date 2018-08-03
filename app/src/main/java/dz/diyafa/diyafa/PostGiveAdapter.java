@@ -33,7 +33,7 @@ public class PostGiveAdapter extends ArrayAdapter<PostGive> {
 
         // Populate the data into the template view using the data object
         foodName.setText(PostGive.getFoodName());
-        country.setText(PostGive.getCountry()+"("+PostGive.getRegion()+")");
+        country.setText(PostGive.getCountry()+" ( "+PostGive.getRegion()+ ")");
         time.setText(PostGive.getMinutes());
         user.setText("Mohamed");
         quantity.setText(PostGive.getQuantity());
